@@ -1,0 +1,308 @@
+/* start*/
+@media only screen and (max-width: 1200px) { 
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 350px) {
+}
+/*End*/
+
+/* Course start*/
+@media only screen and (max-width: 1200px) { 
+  #Course {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #Course {
+    width: 100%;
+  }
+  #Course .box {
+    width: 150px;
+    height: 150px;
+  }
+  #Course .c1 {
+    width: 150px;
+    height: 150px;
+  }
+  #Course .c2 {
+    width: 130px;
+    height: 130px;
+  }
+  #Course .box:hover .c2 {
+    top: -110px;
+  }
+  #Course .text:hover a {
+    color: #86bc42;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #Course .column {
+    width: calc(50%);
+  }
+  #Course .c {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #Course .box {
+    width: 130px;
+    height: 130px;
+  }
+  #Course .c1 {
+    width: 130px;
+    height: 130px;
+  }
+  #Course .c2 {
+    width: 110px;
+    height: 110px;
+  }
+  #Course .c2 i {
+    margin-top: 10px;
+  }
+  #Course .box:hover .c2 {
+    top: -90px;
+  }
+}
+/* Course End*/
+
+/* Skill Development start*/
+@media only screen and (max-width: 1050px) { 
+  #skill .box {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  #skill .box {
+    width: 19%;
+  }
+  #skill .icon i {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 9px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #skill .box {
+    width: 21%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #skill {
+    padding-left: 5px;
+  }
+  #skill .box {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  #skill .title {
+    font-size: 20px;
+  }
+  #skill .box {
+    width: 44%;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #skill .box {
+    width: 43%;
+  }
+}
+@media only screen and (max-width: 292px) {
+  #skill .box {
+    width: 40%;
+  }
+}
+/* Skill Development End*/
+/* progressber start*/
+@media only screen and (max-width: 1200px) { 
+  #progressber {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #progressber .title{
+    font-size: 30px;
+  }
+  #progressber .content .box .number {
+    font-size: 30px;
+    font-weight: 501;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #progressber .title{
+    font-size: 20px;
+  }
+  #progressber .content .box {
+    width: calc(50% - 1px);
+  }
+}
+@media only screen and (max-width: 300px) { 
+  #progressber .title{
+    font-size: 20px;
+  }
+  #progressber .content .box {
+    width: calc(50% - 1px);
+  }
+  #progressber .content .box .text {
+    font-size: 15px;
+    font-weight: 501;
+  }
+}
+/* progressber end*/
+
+/* start*/
+@media only screen and (max-width: 1200px) {
+  #ad {
+    width: 100%;
+  } 
+}
+@media only screen and (max-width: 1132px) {
+  #ad .box {
+    width: calc(50% - 10px);
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 556px) {
+  #ad .box {
+    width: calc(100%);
+    margin-bottom: 30px;
+  }
+}
+/*End*/
+
+/*gallery start*/
+@media only screen and (max-width: 1200px) { 
+  #gallery .content{
+    width: 100%;
+  } 
+}
+@media only screen and (max-width: 900px) {
+  #gallery .c1 {
+    width: calc(50%);
+  }
+  #gallery .c2 {
+    width: calc(50%);
+  }
+  #gallery .c3 {
+    width: calc(50%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  #gallery .title {
+    font-size: 20px;
+  }
+  #gallery .c1 {
+    width: calc(100%);
+  }
+  #gallery .c2 {
+    width: calc(100%);
+  }
+  #gallery .c3 {
+    width: calc(100%);
+  }
+}
+/* gallery End*/
+
+/* start*/
+@media only screen and (max-width: 1100px) {
+  #footer .content{
+    width: 100%;
+  }  
+}
+
+@media only screen and (max-width: 1000px) {
+  #footer .content{
+    width: 100%;
+  }
+  #footer .text {
+    font-size: 16px;
+  }
+  #footer .box {
+    font-size: small;
+  }
+  #footer .box1 {
+    width: 42%;
+  }
+  #footer .box2 {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #footer .box1 {
+    width: calc(100%);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -1px; 
+  }
+  #footer .box2 {
+    width: calc(30% );
+    margin-left: 25%;
+  }
+  #footer .box3 {
+    margin-right: 15%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #footer .box2 {
+    width: calc(30%);
+    margin-left: 20%;
+  }
+  #footer .box3 {
+    margin-right: 15%;
+  }
+  #footer .box3 .icon {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #footer .box2 {
+    width: calc(100%);
+    margin-left: 42%;
+    margin-right: 40%;
+    margin-bottom: 30px;
+  }
+  #footer .box3 {
+    width: calc(100%);
+    margin-left: 25%;
+  }
+  #footer .box3 .icon {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #footer .box2 {
+    width: calc(100%);
+    margin-left: 30%;
+    margin-bottom: 30px;
+  }
+  #footer .box3 {
+    width: calc(100%);
+    margin-left: 20%;
+  }
+  #footer .box3 .icon {
+    font-size: 20px;
+  }
+}
+/*End*/
+
+  
+  
+
+

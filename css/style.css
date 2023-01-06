@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* nav start*/
+#nav {
+  background-color: #5bb53b;
+}
+#nav .navbar-nav a {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+#nav .dropdown-menu {
+  background-color: rgba(66, 62, 59, 0.733) !important;
+}
+#nav .dropdown-menu :hover {
+  background-color: rgba(185, 102, 39, 0.993) !important;
+}
+/*Nav end*/
+
+/* News start*/
+#news {
+  display: inline-block;
+  background-color: #49575f;
+}
+#news .title {
+  font-size: 15px;
+  color: rgb(0, 255, 34);
+  font-weight: bold;
+}
+/* News start*/
+
+/* Course start*/
+#Course {
+  width: 100%;
+  display: inline-block;
+}
+#Course .column {
+  width: 25%;
+  float: left;
+}
+#Course .box {
+  width: 180px;
+  height: 180px;
+  background-color: #242c42;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+#Course .c1 {
+  height: 180px;
+  width: 180px;
+  border: 10px solid #86bc42;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+#Course .c2 {
+  height: 160px;
+  width: 160px;
+  background: #86bc42;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  transition: 0.5s;
+  text-align: center;
+}
+#Course .c2 i {
+  color: #fff;
+  font-size: 80px;
+  margin-top: 30px;
+}
+#Course .box:hover .c2 {
+  top: -140px;
+}
+#Course .Click {
+  text-align: center;
+  line-height: 180px;
+}
+#Course .Click a {
+  text-decoration: none;
+  color: #fff;
+}
+#Course .text {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#Course .text a {
+  color: #49575f;
+}
+#Course .text:hover a {
+  color: #86bc42;
+}
+/* Course End*/
+
+/* Skill Development*/
+#skill {
+  background-color: #255FCC;
+  display: inline-block;
+  width: 100%;
+  padding-left: 30px;
+}
+#skill .title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+} 
+#skill .box {
+  background-color: #fff;
+  float: left;
+  width: 21%;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+#skill .box:hover {
+  background-color: #ffc107;
+}
+#skill .content {
+  margin: 10px;
+}
+#skill .icon i {
+  background-color: #255FCC;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 50px;
+  margin: 10px;
+  padding: 16px;
+}
+/*Skill Development end*/
+
+/* Progressber start*/
+#progressber {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#progressber .title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 501;
+  color: #f2f2f2;
+}
+#progressber .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#progressber .content .box {
+  width: calc(25% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+#progressber .content .box .number {
+  font-size: 35px;
+  font-weight: 501;
+  color: #f2f2f2;
+  font-family: sans-serif;
+}
+#progressber .content .box .text {
+  font-size: 18px;
+  font-weight: 501;
+  color: #ccc;
+}
+/* Progressber End*/
+
+/* College Event*/
+#img {
+  background-color: #dfd3d3;
+  display: inline-block;
+}
+#img h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 7, 4);
+  background-color: #98c1d9;
+} 
+#img .box {
+  width: 100%;
+}
+#img img {
+  height: 250px;
+  padding-bottom: 10px;
+}
+/* College Event*/
+
+/* Administration start*/
+#ad {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  background-color: #fff;
+}
+#ad .title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+} 
+#ad .box {
+  width: 24.1%;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(202, 221, 238, 0.26);
+  border-radius: 10px; 
+}
+#ad .content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ #ad img {
+  width: 100%;
+  border-radius: 5px;
+ }
+ #ad .text {
+   font-size: 30px;
+   font-weight: 500;
+ }
+ #ad h5 {
+   font-size: 15px;
+ }
+
+#gallery {
+  background-color: #98c1d9;
+  display: inline-block;
+  color: #200404;
+}
+#gallery .title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+#gallery .c1 {
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+#gallery .c2 {
+  float: left;
+  width: 25%;
+}
+#gallery .c2 .top {
+  height: 210px;
+}
+#gallery .c2 .bottom {
+  height: 190px;
+}
+#gallery .c3 {
+  float: left;
+  width: 25%;
+}
+#gallery .c3 .top {
+  height: 190px;
+}
+#gallery .c3 .bottom {
+  height: 210px;
+}
+#gallery .img-box {
+  height: 100%;
+  overflow: hidden;
+}
+#gallery .img-box img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+#gallery .img-box:hover img {
+  transform: scale(1.5);
+}
+/*Footer Start*/
+#footer {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+#footer .title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+#footer .text {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#footer .text2 {
+  margin-left: 10px;
+  font-weight: 100;
+  color: #fff;
+}
+
+#footer .box1 {
+  float: left;
+  width: 45%;
+  margin-left: 30px; 
+}
+#footer .box1 .box {
+  margin-top: 7px;
+  margin-left: 20px;
+}
+#footer .box1 .location {
+  margin-bottom: 15px;
+}
+
+#footer .box2 {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+#footer .box2 .box {
+  margin-top: 7px;
+  margin-left: -40px;
+}
+#footer .box2 .boxs {
+  float: left;
+  margin-right: 30px;
+}
+
+#footer .box3 {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+#footer .box3 .box {
+  margin-top: 7px;
+  margin-left: 15px;
+}
+#footer .box3 .icon {
+  font-size: 40px;
+}
+#footer .box3 .icon i {
+  margin-right: 15px;
+}
+#footer .box3 .icon i:hover {
+  color: #007bff;
+}
+/*Footer End*/
+#design {
+  background-color: #e0e5f3;
+  text-align: center;
+}
+
